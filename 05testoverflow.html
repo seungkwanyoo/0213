@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05testoverflow.html</title>
+<style>
+    * {
+        font-size: 14pt;
+    }
+    .myimg {
+        width: 250px;
+        height: 250px;
+        padding: 3px;
+        margin: 50px;
+        border-radius: 5px;
+        border: 1px dotted gray;
+        float : left
+    }
+</style>
+</head>
+<body>
+    <h2>overflow(auto,hidden,scroll,visible)</h2>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+
+    <div class="myimg" style="overflow: auto;"><img src="./images/a1.png" alt=""></div>
+    <div class="myimg" style="overflow:hidden"><img src="./images/a1.png" alt=""></div>
+    <div class="myimg" style="overflow: scroll;"><img src="./images/a1.png" alt=""></div>
+    <div class="myimg" style="overflow: visible;"><img src="./images/a1.png" alt=""></div>
+</body>
+</html>
